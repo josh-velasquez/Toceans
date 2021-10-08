@@ -28,3 +28,15 @@ function validateForm() {
   }
   document.querySelector(".status").innerHTML = "Sending...";
 }
+
+// function sendEmail(subject,body) {
+//   Email.send({
+//     SecureToken: "",
+//     To: "targetUser@gmail.com",
+//     From: "senderUser@gmail.com",
+//     Subject: subject,
+//     Body: body
+//   }).then(
+//     message => alert(message)
+//   )
+// }
