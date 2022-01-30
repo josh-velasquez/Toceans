@@ -188,12 +188,6 @@ a[aria-expanded="true"] {
   color: white;
 }
 
-.info-form {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
 #message {
   width: 100%;
   height: 150px;
@@ -224,4 +218,8 @@ a[aria-expanded="true"] {
   border: 1px solid whitesmoke;
   padding: 10px 10px;
   width: 250px;
+}
+
+.status {
+  color: red;
 }

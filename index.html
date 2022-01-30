@@ -12,7 +12,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
     crossorigin="anonymous"></script>
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <link rel="stylesheet" type="text/css" href="styles.css" />
   <title>Toceans</title>
 </head>
@@ -324,19 +323,9 @@
     <section class="sections_body card" id="contact">
       <h2 class="text-center">Contact Us</h2>
       <hr />
-      <form id="contact-form" onsubmit="validateEmail()" method="POST">
-        <div class="info-form">
-          <div class="input">
-            <label for="name">Your name</label>
-            <input class="input-line" type="text" id="name" name="name" placeholder="Name">
-          </div>
-          <div class="input">
-            <label for="email">Your email</label>
-            <input class="input-line" style="background-color: #61A9FA;" type="email" id="email" name="email" placeholder="Email">
-          </div>
-        </div>
+      <form id="contact-form" onsubmit="validateEmail()" method="POST" >
         <div>
-          <label for="message">Your message</label>
+          <label for="message">Your message:</label>
           <textarea type="text" id="message" name="message" placeholder="Message"></textarea>
         </div>
         <input class="button" type="submit" value="Send">
