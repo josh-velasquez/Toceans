@@ -1,7 +1,7 @@
 body {
   background-color: grey;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
 }
 
@@ -32,8 +32,9 @@ section {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 500px;
-  background-color: red;
+  height: 800px;
+  background-image: url("assets/sky0.jpg");
+  /* background-position: center; */
 }
 
 .top-right-image {
@@ -152,11 +153,15 @@ a[aria-expanded="true"] {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin: auto auto;
+  width: 100%;
 }
 
 .portrait {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  width: 300px;
 }
 
 .portrait > p {
@@ -198,4 +203,25 @@ a[aria-expanded="true"] {
 
 .button {
   background-color: #d6f7fa;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 100px auto;
+}
+
+.video-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.video-column {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid whitesmoke;
+  padding: 10px 10px;
+  width: 250px;
 }
